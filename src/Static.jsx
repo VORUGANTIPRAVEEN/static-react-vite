@@ -16,7 +16,7 @@ export default function Static() {
                 <span>id: {meta.id}</span><br />
                 <span>subject: {meta.subject}</span><br />
                 <span>body: {meta.body}</span><br />
-                <span>view count: {meta.body}</span><br />
+                <span>view count: {meta.view_count}</span><br />
               </div>  
             })
         } 
