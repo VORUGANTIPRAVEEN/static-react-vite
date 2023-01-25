@@ -1,0 +1,15 @@
+.Error {
+    height: 700px;
+    width: 100%;
+    background-image: url("../../assets/Img/405.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  .Cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  

@@ -1,0 +1,9 @@
+.one-css{
+    color: red;
+}
+.h1{
+    /* font-style: heading; */
+    font-family: Heading;
+    background: inherit;
+    font-size: var(--font-size-title);
+}
