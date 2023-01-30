@@ -13,12 +13,12 @@ export default function App() {
     <RecoilRoot>
       <Static />
          
-    <hr />
+   <-- <hr />
       <h1>Using recoil Counting the number of Character in the String </h1>
        <CharacterCounter />
     <hr />
     <h1>todo list using recoil and hooks </h1>
-      <TodoList />
+      <TodoList /> -->
     <hr />
       <h1>Fetching the data from github api using class Component</h1>
  <Apps />
