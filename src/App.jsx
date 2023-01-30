@@ -12,15 +12,16 @@ export default function App() {
   return (
     <RecoilRoot>
       <Static />
-    <hr />
-      <h1>Fetching the data from github api using class Component</h1>
-      <Apps />
+          <Apps />
     <hr />
       <h1>Using recoil atoms Counting the number of Character in the String </h1>
        <CharacterCounter />
     <hr />
-    <h1>using recoil and useState useEffect </h1>
+    <h1>todo list using recoil and hooks </h1>
       <TodoList />
+    <hr />
+      <h1>Fetching the data from github api using class Component</h1>
+
     </RecoilRoot>
   )
 }
