@@ -16,12 +16,8 @@ export default function App() {
       <h1>Fetching the data from github api using class Component</h1>
       <Apps />
     <hr />
+          <h1>Using the usestate and useEffect </h1>
      <UserList />
-    <hr />
-      <h1>Using the usestate and useEffect </h1>
-    <Techzone />
-    <hr />
-       <One /> 
     <hr />
       <h1>Using recoil atoms Counting the number of Character in the String </h1>
        <CharacterCounter />
