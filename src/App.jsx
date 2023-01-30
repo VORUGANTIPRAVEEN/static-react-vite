@@ -11,14 +11,16 @@ import TodoList from './recoil/TodoList'
 export default function App() {
   return (
     <RecoilRoot>
-      {/* <UserList /> */}
+       <UserList />
       <Static />
-      {/* <Techzone /> */}
       <h1>Fetching the data from github api using class Component</h1>
       <Apps />
-      {/* <One /> */}
-      {/* <CharacterCounter />
-      <TodoList /> */}
+      <h1>Using the usestate and useEffect </h1>
+    <Techzone />
+       <One /> 
+      <h1>Using recoil atoms</h1>
+       <CharacterCounter />
+      <TodoList />
     </RecoilRoot>
   )
 }
