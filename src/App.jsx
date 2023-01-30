@@ -14,7 +14,7 @@ export default function App() {
       <Static />
          
     <hr />
-      <h1>Using recoil atoms Counting the number of Character in the String </h1>
+      <h1>Using recoil Counting the number of Character in the String </h1>
        <CharacterCounter />
     <hr />
     <h1>todo list using recoil and hooks </h1>
