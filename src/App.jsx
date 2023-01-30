@@ -12,7 +12,7 @@ export default function App() {
   return (
     <RecoilRoot>
       <Static />
-          <Apps />
+         
     <hr />
       <h1>Using recoil atoms Counting the number of Character in the String </h1>
        <CharacterCounter />
@@ -21,7 +21,7 @@ export default function App() {
       <TodoList />
     <hr />
       <h1>Fetching the data from github api using class Component</h1>
-
+ <Apps />
     </RecoilRoot>
   )
 }
