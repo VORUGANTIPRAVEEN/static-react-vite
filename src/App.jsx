@@ -11,15 +11,21 @@ import TodoList from './recoil/TodoList'
 export default function App() {
   return (
     <RecoilRoot>
-       <UserList />
       <Static />
+    <hr />
       <h1>Fetching the data from github api using class Component</h1>
       <Apps />
+    <hr />
+     <UserList />
+    <hr />
       <h1>Using the usestate and useEffect </h1>
     <Techzone />
+    <hr />
        <One /> 
-      <h1>Using recoil atoms</h1>
+    <hr />
+      <h1>Using recoil atoms Counting the number of Character in the String </h1>
        <CharacterCounter />
+    <hr />
       <TodoList />
     </RecoilRoot>
   )
